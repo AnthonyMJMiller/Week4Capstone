@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Week4Capstone</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping List</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/yeti/bootstrap.min.css" rel="stylesheet" integrity="sha384-MEq8xmFd953gp2FVvLd8DUEvfBjGCzDjem+gmDqfyyWcaxX4BUD7TtSu1EszNTvK" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+  <div class="jumbotron">
+    <h1>Electronics and Things</h1>
+      </div>
+    </div>
+    
+  <div class="container">
+    <p id="getInventory">
+      Phone Charger: $8.99
+      <br>
+      <input name="addToCart" type="button" value="Add" class="btn btn-primary" onclick="addToCart(items[0]); addToPrice(prices[0]);">
+      <br><br>
+      Space Heater: $24.79
+      <br>
+      <input name="addToCart" type="button" value="Add" class="btn btn-primary" onclick="addToCart(items[1]); addToPrice(prices[1]);">
+      <br><br>
+      Headphones: $14.99
+      <br>
+      <input name="addToCart" type="button" value="Add" class="btn btn-primary" onclick="addToCart(items[2]); addToPrice(prices[2]);">
+      <br><br>
+      Fan: $22.79
+      <br>
+      <input name="addToCart" type="button" value="Add" class="btn btn-primary" onclick="addToCart(items[3]); addToPrice(prices[3]);">
+    </p>
+  </div> 
+    
+  <div id="cart">
+    <p> You added: </p>
+    <p id="cartitems"></p>
+    
+    <button id="checkoutCart" class="btn btn-primary btn-lg">Checkout</button>
+    <br>
+    <p id="fullcost"> </p>
+    
+  </div>
+    
+    <script src="script.js"> </script>
+  </body>
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
